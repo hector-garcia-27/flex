@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+* p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.lado-uno{
+    width: 30%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px; 
+    border-color: #bec1bb;
+}
+
+.lado-uno .cont-princ {
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 1px;
+    border-color: #bec1bb;
+}
+
+.lado-uno .cont-princ .user {
+    display: flex;
+    padding: 10px;
+}
+
+.lado-uno .cont-princ .user-text {
+    padding: 10px;
+    
+}
+
+.lado-uno img {
+    border-radius: 40px;
+    height: 50px;
+    border: solid 1px;
+    border-color: #bec1bb;
+}
+
+.lado-uno .cont-princ .iconos {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.lado-uno button {
+    padding: 10px;
+    margin: 30px;
+    width: 150px;   
+    border: #a491d2;
+    background-color: #a491d2;
+    color: white;
+}
+
+.lado-uno .boton {
+    display: flex;
+    justify-content: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: #bec1bb;
+}
+
+.lado-uno button:hover {
+    background-color: #cdc3e6;
+}
+
+.lado-uno button:focus {
+    background-color: #bec1bb;
+}
+
+.lado-uno button a {
+    text-decoration: none;
+    color: white;
+}
+
+.lado-uno .contactos{
+    display: flex;
+    flex-direction: column;
+}
+
+.lado-uno .contactos .c-lista {
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    border-bottom: solid 1px;
+    border-color: #bec1bb;
+
+}
+
+.lado-uno .contactos .c-lista img {
+    border: solid 1px;
+    border-color: #bec1bb;
+}
+
+.lado-uno .contactos .user-text {
+    padding: 10px;
+}
+
+
+/* lado-dos */
+
+.lado-dos{
+    width: 100%;
+    background-color: #E8EBE4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.lado-dos img {
+    width: 250px;
+}
+
+.lado-dos h1 {
+    font-size: 3rem;
+}
